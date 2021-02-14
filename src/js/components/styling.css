@@ -1,0 +1,214 @@
+@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@500&display=swap");
+
+body {
+  font-family: "Quicksand", sans-serif;
+  color: #4d4d4d;
+}
+
+.PathComp {
+    float: left
+}
+
+.root {
+    width:fit-content
+}
+
+.paddingLeft {
+    margin-left:2%;
+}
+
+.clicked {
+    
+    background-Color: '#c8e6c9';
+  }
+
+  .tableHover :hover {
+    color: rgb(184, 36, 36);
+    background-color: rgb(75, 121, 173);
+  }
+  
+  .tableSelected {
+    color: white;
+    background-color: rgb(75, 121, 173);
+    border: 3px solid red
+  }
+
+  .borderbottom{
+    border-bottom: 1px solid black;
+  }
+
+table{
+    flex:1;
+    overflow-x: auto;
+    white-space: nowrap;
+}
+
+table.tr {
+  flex:1;
+    border-bottom: 1px solid black;
+}
+
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  grid-gap: 12px;
+}
+
+.item {
+  min-height: 200px;
+  background-color: #eee;
+}
+
+
+#title {
+  text-align: center;
+}
+
+.opration {
+  text-align: center;
+}
+
+.responsive {
+    width: 100%;
+    height:fit-content;
+}
+
+.sidebar a:hover:not(.active) {
+    background-color: #555;
+    color: white;
+  }
+
+
+    .sidebar {
+      width: auto;
+      height: auto;
+      
+    }
+    .sidebar a {float: left;}
+
+    .paddingright {
+        padding-right: 1%;
+    }
+
+    .pullRight{
+        float: right
+    }
+    .pullLeft{
+      float: left;
+    }
+
+    .pullCenter{
+      float: center;
+    }
+
+    .pullPosition{
+        float: center
+    }
+  
+  /* On screens that are less than 400px, display the bar vertically, instead of horizontally */
+    .sidebar a {
+      text-align: center;
+      float: none;
+    }
+
+  div.content {
+    display: block;
+    position: relative;
+    padding-left: 1.5%;
+    text-decoration: none;
+    font-size: 17px;
+  }
+
+.sidebar a.active {
+    background-color: #4CAF50;
+    color: white;
+  }
+
+.sidebar a {
+    display: block;
+    color:white;
+    text-decoration: none;
+  }
+
+.statusElement {
+    background-color: rgb(56, 54, 54);
+    color: white;
+}
+
+.sidebar {
+    margin: 0;
+    padding: 0;
+    width: auto;
+    background-color: #f1f1f1;
+    position: fixed;
+    height: 100%;
+    overflow: auto;
+  }
+
+  .topnav {
+    background-color: white;
+    overflow: hidden;
+    padding-left: 1.5%;
+    
+  }
+  
+  /* Style the links inside the navigation bar */
+  .topnav a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 5%;
+    padding-left: 1.5;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  /* Change the color of links on hover */
+  .topnav a:hover {
+    background-color: #ddd;
+    color: #4d4d4d;
+  }
+  
+  /* Add an active class to highlight the current page */
+  .topnav a.active {
+    background-color: #060999;
+    color: white;
+  }
+  
+  /* Hide the link that should open and close the topnav on small screens */
+  .topnav .icon {
+    display: none;
+  }
+
+.NavLink{
+    text-decoration: none;
+    border: none;
+  outline: none;
+  font-size: 11px;
+  font-family: "Quicksand", sans-serif;
+  color: #f44336;
+  padding: 3% 10%;
+  border-radius: 8%;
+  cursor: pointer;
+  border: 2px solid #f44336;
+  background-color: transparent;
+}
+
+.button {
+  border: none;
+  outline: none;
+  font-size: 11px;
+  font-family: "Quicksand", sans-serif;
+  color: #f44336;
+  padding: 3% 10%;
+  border-radius: 8%;
+  cursor: pointer;
+  border: 1px solid #f44336;
+  background-color: transparent;
+}
+
+.button:active {
+  border: 1px solid blue;
+}
